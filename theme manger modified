@@ -5,7 +5,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Default / Neverlose.cc'] 		= { 1, httpService:JSONDecode('{"MainColor":"0c0a0a","AccentColor":"00cefc","OutlineColor":"0c0a0a","BackgroundColor":"0c0a0a","FontColor":"ffffff"}') },
+		['Default'] 		= { 1, httpService:JSONDecode('{"MainColor":"0c0a0a","AccentColor":"00cefc","OutlineColor":"0c0a0a","BackgroundColor":"0c0a0a","FontColor":"ffffff"}') },
 	}
 
 	function ThemeManager:ApplyTheme(theme)
