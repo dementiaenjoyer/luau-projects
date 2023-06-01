@@ -7,6 +7,8 @@ local ThemeManager = {} do
 	ThemeManager.BuiltInThemes = {
 		['Default'] 		= { 1, httpService:JSONDecode('{"MainColor":"0a0920","AccentColor":"af115d","OutlineColor":"131313","BackgroundColor":"090419","FontColor":"ffffff"}') },
 		['BitchBot'] 		= { 1, httpService:JSONDecode('{"MainColor":"1e1e1e","AccentColor":"7e48a3","OutlineColor":"141414","BackgroundColor":"232323","FontColor":"ffffff"}') },
+		['Discord'] 		= { 1, httpService:JSONDecode('{"MainColor":"2b2d31","AccentColor":"5864f2","OutlineColor":"2b2d31","BackgroundColor":"1e1f22","FontColor":"b5bac1"}') },
+		
 	}
 
 	function ThemeManager:ApplyTheme(theme)
